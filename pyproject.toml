@@ -11,6 +11,8 @@ uvicorn = "^0.29.0"
 fastapi = "^0.110.0"
 motor = "^3.4.0"
 ipython = "^8.23.0"
+pytest = "^8.1.1"
+pytest-asyncio = "^0.23.6"
 
 
 [build-system]

@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f9f8af9-f3ef-425a-a0a6-ef6494b85d87" name="Changes" comment="make entities, value, exceptions and new skill practice - 'Makefile'">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/entities/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/events/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/events/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/events/messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infra/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/infra/repositories/messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/commands/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/commands/messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/events/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/events/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/exceptions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/exceptions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/exceptions/mediator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/exceptions/messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logic/mediator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/domain/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/domain/values/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/domain/values/test_messages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/logic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/logic/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/tests/logic/test_messages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/domain/entities/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/domain/entities/messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/domain/exceptions/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/domain/exceptions/messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/domain/values/messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/domain/values/messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +64,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Makefile Target.app.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/zalim/PycharmProjects/chat_online",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Makefile Target.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/projects/ddd-fastapi-kafka-chat&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zalim\PycharmProjects\pythonProject1\app\domain\entities" />
@@ -110,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711911706885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make entities, value, exceptions and new skill practice - 'Makefile'">
+      <option name="closed" value="true" />
+      <created>1711911894974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711911894974</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,5 +176,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make entities, value, exceptions and new skill practice - 'Makefile'" />
     <option name="LAST_COMMIT_MESSAGE" value="make entities, value, exceptions and new skill practice - 'Makefile'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/logic/events/base.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
